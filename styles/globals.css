@@ -18,3 +18,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navlink {
+  display: block;
+  padding: 12px;
+  width: 100px;
+  background-color: #0F172A;
+  float: left;
+  text-align: center;
+}
+
+.navlink:hover:not(.active) {
+  background-color: #334155;
+}
+
+.active {
+  background-color: #475569;
+  font-weight: bold;
+}
